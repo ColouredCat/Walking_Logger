@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "neo6m")(type "KiCad")(uri "${KIPRJMOD}/lib/neo6m.kicad_sym")(options "")(descr ""))
+)
