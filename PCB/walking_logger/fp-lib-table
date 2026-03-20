@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "neo6m")(type "KiCad")(uri "${KIPRJMOD}/lib/neo6m.pretty")(options "")(descr ""))
+  (lib (name "ssd1306")(type "KiCad")(uri "${KIPRJMOD}/lib/ssd1306.pretty")(options "")(descr ""))
+  (lib (name "bme280")(type "KiCad")(uri "${KIPRJMOD}/lib/bme280.pretty")(options "")(descr ""))
+  (lib (name "ansman16340")(type "KiCad")(uri "${KIPRJMOD}/lib/ansman16340.pretty")(options "")(descr ""))
+)

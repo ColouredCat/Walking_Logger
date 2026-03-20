@@ -1,0 +1,122 @@
+(footprint "ansman16340"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "battery ansman li-ion rechargable")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a9e5f37e-c649-48aa-8a31-4d425302b82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RCR123A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0ed9aeb-68a1-438e-abef-8012f3956544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b1d6f06-e332-4cf7-afee-b529377af60e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a0abcac-342b-41e1-8fae-675fa1249c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.11 -3.11)
+		(end 9.11 40.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ac24af02-7845-4d6f-926a-a3464913fa81")
+	)
+	(fp_rect
+		(start -9.5 -3.5)
+		(end 9.5 40.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1a20427d-8c82-498c-926f-1d67be8a4b41")
+	)
+	(fp_rect
+		(start -9 -3)
+		(end 9 40)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "75fd6333-fe47-4438-a69d-a7e18a850bca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00a6ac34-bb74-4938-8c98-4e2a7bb50920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.8 2)
+		(drill oval 1.4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1136363636)
+		(uuid "ddd6ed5e-b632-43e9-8b88-c8ff2b896825")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 37)
+		(size 2.8 2)
+		(drill oval 1.4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1136363636)
+		(uuid "6b5c2163-2e50-4abe-befb-2068941b7706")
+	)
+	(embedded_fonts no)
+)
