@@ -1,0 +1,7 @@
+Required to purchase?,Reference,Qty,Value,Footprint
+No,A1,1,RaspberryPi_Pico,Module:RaspberryPi_Pico_Common_Unspecified
+Yes,BE1,1,bme280,bme280:BME280
+No,BT1,1,3.3V,ansman16340:ansman16340
+No,GP1,1,~,neo6m:ublox_neo6m
+No,"SD1,SD2",2,ssd1306,ssd1306:ssd1306
+Yes,SW1,1,SW_SPDT,Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH

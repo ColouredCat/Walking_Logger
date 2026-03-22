@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "neo6m:ublox_neo6m"
 			(at 0 0 0)
 			(effects
 				(font

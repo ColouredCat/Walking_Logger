@@ -90,7 +90,7 @@
 					(justify left top)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -3.81 0 270)
 				(length 2.54)
 				(name "VCC"
