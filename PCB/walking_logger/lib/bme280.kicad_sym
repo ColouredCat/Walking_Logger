@@ -108,10 +108,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -2.54 180)
 				(length 2.54)
-				(name "SDA"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -144,10 +144,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 0 -7.62 180)
 				(length 2.54)
-				(name ""
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -155,24 +155,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

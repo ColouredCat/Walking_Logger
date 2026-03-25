@@ -12,17 +12,17 @@ class GPS_Module:
             print('GPS failed to initialise!')
             
     def to_degrees(self, raw_lat, raw_long):
-        # First 2 digits is degrees; next 2 are minutes
+        #first 2 digits is degrees; next 2 are minutes
         lat = float(raw_lat[0:2])
         lat += float(raw_lat[2:len(raw_lat)])/60
         
-        # First 3 digits is degrees; next 2 are minutes
+        #first 3 digits is degrees; next 2 are minutes
         long = float(raw_long[0:3])
         long += float(raw_long[3:len(raw_long)])/60
         return lat, long
     
     def str_time(self):
-        # Nicely format the time as a string
+        #nicely format the time as a string
         return "{}:{}:{} UTC".format(self.time[0:2], self.time[2:4], self.time[4:6])
         
     def get_fix(self):

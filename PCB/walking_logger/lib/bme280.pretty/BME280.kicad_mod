@@ -125,15 +125,7 @@
 		(uuid "65ec5506-7d5a-4d9d-811e-60dcd19c0e15")
 	)
 	(pad "3" thru_hole circle
-		(at 0 7.62)
-		(size 1.6 1.6)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d04db31a-db27-41c2-914b-cf7f49f7f3a5")
-	)
-	(pad "4" thru_hole circle
-		(at 0 10.16)
+		(at 0 8)
 		(size 1.6 1.6)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
