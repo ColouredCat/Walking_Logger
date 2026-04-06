@@ -7,9 +7,9 @@ from OSGridConverter import ll_to_os
 from time import sleep
 
 #setup display and gps
-i2c = I2C(scl=Pin(21), sda=Pin(20))
+i2c = I2C(scl=Pin(5), sda=Pin(4))
 dis = SSD1306_I2C(128, 64, i2c)
-GPS = GPS_Module(0, 0, 1)
+GPS = GPS_Module(0, 12, 13)
 
 while True:
     #check if a fix is found
@@ -30,5 +30,4 @@ while True:
         
     dis.show()
     sleep(1)
-
 
