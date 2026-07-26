@@ -490,7 +490,7 @@
       "plot": "../output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "walking_logger.step",
       "svg": "",
       "vrml": ""
     },
